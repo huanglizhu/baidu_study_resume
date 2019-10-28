@@ -1,0 +1,74 @@
+.float_1 div:nth-of-type(1) {
+    width: 10%;
+    float: left;
+}
+
+.float_1 div:nth-of-type(2) {
+    width: 10%;
+    float: left;
+}
+
+.float_1 div:nth-of-type(3) {
+    width: 20%;
+    float: left;
+}
+
+.float_2 div:nth-of-type(1) {
+    width: 15%;
+    float: left;
+}
+
+.float_2 div:nth-of-type(2) {
+    width: 20%;
+    float: left;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.resumeText {
+    background: #858585;
+    color: white;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.left {
+    font-size: 12px;
+    height: 120px;
+    width: 120px;
+    background: #d6d6d6;
+    /* line-height垂直居中 */
+    line-height: 120px;
+    /* text-align水平居中 */
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+
+.float_1,
+.float_2,
+.right {
+    width: 90%;
+    border-top: 1px solid #d6d6d6;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+p {
+    display: inline;
+}
+
+body {
+    border: 1px solid #d6d6d6;
+}

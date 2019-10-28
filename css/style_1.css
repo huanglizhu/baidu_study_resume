@@ -1,0 +1,37 @@
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.float_1 div:nth-of-type(1) {
+    width: 10%;
+    float: left;
+}
+
+.float_1 div:nth-of-type(2) {
+    width: 10%;
+    float: left;
+}
+
+.float_1 div:nth-of-type(3) {
+    width: 20%;
+    float: left;
+}
+
+.float_2 div:nth-of-type(1) {
+    width: 15%;
+    float: left;
+}
+
+.float_2 div:nth-of-type(2) {
+    width: 20%;
+    float: left;
+}
+
+.ability {
+    line-height: 6px;
+    margin-bottom: 30px;
+}
